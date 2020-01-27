@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="277.0" prefWidth="513.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="383.0" layoutY="27.0" prefHeight="239.0" prefWidth="101.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="Wstaw plik" />
+            <Button mnemonicParsing="false" prefHeight="34.0" prefWidth="109.0" text="Usuń tekst" GridPane.rowIndex="1" />
+            <Button disable="true" mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="Uruchom" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="Zapisz plik" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="Pomoc" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="O programie" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" prefHeight="52.0" prefWidth="100.0" text="Koniec" GridPane.rowIndex="6" />
+         </children>
+      </GridPane>
+      <Label layoutX="394.0" layoutY="6.0" text="Narzędzia" />
+      <TextArea layoutX="14.0" layoutY="27.0" prefHeight="239.0" prefWidth="348.0" />
+      <Label layoutX="14.0" layoutY="6.0" text="Pole tekstowe" />
+   </children>
+</AnchorPane>
